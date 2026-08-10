@@ -91,6 +91,9 @@ extra:
     - name: Pусский
       link: /ru/
       lang: ru
+    - name: 中文
+      link: /zh/
+      lang: zh
   homepage: /
 
 plugins:
@@ -113,7 +116,8 @@ plugins:
             Error Codes: Códigos de error
             Multiplayer Settings: Ajustes multijugador
             Running a Server: Ejecutando un Servidor
-            Server Installation: Instalación del Servidor
+            Server Setup (Home): Configuración del servidor (Inicio)
+            Server Setup (VPS): Configuración del servidor (VPS)
             Server Maintenance: Manutención del Servidor
             Error Codes: Códigos de error
             Server Manual: Manual del Servidor
@@ -123,7 +127,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Cómo comprobar si hay CGNAT?
             Where can I find my IP address?: ¿Dónde puedo encontrar mi dirección IP?
-            How to deactivate my mods?: ¿Cómo desactivar mis mods?
+            How to remove mods?: ¿Cómo se eliminan los mods?
             Manually updating the Launcher: Actualizar manualmente el Launcher
             Changing the Launcher port: Cambiar el puerto del Launcher
             Creating Exclusions (Defender): Creación de exclusiones (Defender)
@@ -158,7 +162,8 @@ plugins:
             Error Codes: Fehlercodes
             Multiplayer Settings: Einstellungen anpassen
             Running a Server: Server ausführen
-            Server Installation: Server Installation
+            Server Setup (ome): Server Einrichtung (Zuhause)
+            Server Setup (VPS): Server Einrichtung (VPS)
             Server Maintenance: Server Wartung
             Error Codes: Fehlercodes
             Server Manual: Server Handbuch
@@ -168,7 +173,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Wie überprüft man auf CGNAT?
             Where can I find my IP address?: Wo finde ich meine IP Adresse?
-            How to deactivate my mods?: Wie deaktiviere ich meine Mods?
+            How to remove mods?: Wie entferne ich Mods?
             Manually updating the Launcher: Den Launcher Manuell updaten
             Changing the Launcher port: Ändern des Launcher Ports
             Creating Exclusions (Defender): Ausnahmen erstellen (Defender) 
@@ -203,7 +208,8 @@ plugins:
             Error Codes: Codes d'erreur
             Multiplayer Settings: Paramètres multijoueurs
             Running a Server: Exécution d'un serveur
-            Server Installation: Installation du serveur
+            Server Setup (Home): Configuration du serveur (Accueil)
+            Server Setup (VPS): Configuration du serveur (VPS)
             Server Maintenance: Maintenance du serveur
             Error Codes: Codes d'erreur
             Server Manual: Manuel du serveur
@@ -213,7 +219,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Comment puis-je vérifier cgnat?
             Where can I find my IP address?: Où puis-je trouver mon adresse IP?
-            How to deactivate my mods?: Comment désactiver mes mods?
+            How to remove mods?: Comment supprimer des mods ?
             Manually updating the Launcher: Mise à jour manuelle du lanceur
             Changing the Launcher port: Changer le port du lanceur
             Creating Exclusions (Defender): Création d'exclusions (Defender)
@@ -248,7 +254,8 @@ plugins:
             Error Codes: Codici di errore
             Multiplayer Settings: Impostazioni multigiocatore
             Running a Server: Eseguire un server
-            Server Installation: Installazione del server
+            Server Setup (Home): Configurazione del server (Home)
+            Server Setup (VPS): Configurazione del server (VPS)
             Server Maintenance: Manutenzione del server
             Error Codes: Codici di errore
             Server Manual: Manuale del server
@@ -258,7 +265,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Come verificare la presenza di CGNAT?
             Where can I find my IP address?: Dove posso trovare il mio indirizzo IP?
-            How to deactivate my mods?: Come disattivare le mie mod?
+            How to remove mods?: Come si rimuovono le mod?
             Manually updating the Launcher: Aggiornamento manuale del Launcher
             Changing the Launcher port: Cambiare la porta del Launcher
             Creating Exclusions (Defender): Creazione di esclusioni (Defender)
@@ -293,7 +300,8 @@ plugins:
             Error Codes: коды ошибок
             Multiplayer Settings: Настройки мультиплеера
             Running a Server: Запуск сервера
-            Server Installation: Установка сервера
+            Server Setup (Home): Настройка сервера (Главная)
+            Server Setup (VPS): Настройка сервера (VPS)
             Server Maintenance: Обслуживание сервера
             Error Codes: коды ошибок
             Server Manual: Руководство по серверу
@@ -303,7 +311,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Как проверить наличие CGNAT?
             Where can I find my IP address?: Где я могу найти свой IP-адрес?
-            How to deactivate my mods?: Как деактивировать мод?
+            How to remove mods?: Как удалить моды?
             Manually updating the Launcher: Обновление лаунчера вручную
             Changing the Launcher port: Изменение порта лаунчера
             Creating Exclusions (Defender): Создание исключений (Defender)
@@ -327,6 +335,52 @@ plugins:
             Contributing: Участие
             Getting Started: Начало работы
             Community: Сообщество
+        - locale: zh
+          name: 中文
+          build: true
+          nav_translations:
+            Home: 首页
+            Support: 支持
+            Playing BeamMP: 游玩 BeamMP
+            Installing BeamMP: 安装 BeamMP
+            Error Codes: 错误代码
+            Multiplayer Settings: 多人模式设置
+            Running a Server: 运行服务器
+            Server Setup (Home): 服务器设置（首页）
+            Server Setup (VPS): 服务器设置（VPS）
+            Server Maintenance: 服务器维护
+            Error Codes: 错误代码
+            Server Manual: 服务器手册
+            Mod & Resource Creation: 模组与资源制作
+            Client Side: 客户端
+            Server Side: 服务器端
+            FAQ: 常见问题解答
+            How to check for CGNAT?: 如何检查CGNAT?
+            Where can I find my IP address?: 我怎样才能找到我服务器的IP？
+            How to remove mods?: 如何删除模组？
+            Manually updating the Launcher: 手动更新启动器
+            Changing the Launcher port: 更改启动器端口
+            Creating Exclusions (Defender): 创建 Defender 排除项
+            Player FAQ: 面向玩家的疑难解答
+            Game FAQ: 游戏常见问题
+            Server FAQ: 服务器常见问题
+            Development Guides: 开发指南
+            Mod Creation: 模组制作
+            UI Apps: 图形界面-应用程序 
+            IMGUI Windows: IMGUI 窗口
+            Lua Mods: Lua 模组
+            Resource Creation: 资源制作
+            UI Apps: 图形界面-应用程序 
+            Snippets: 片段
+            BeamNG Documentation: BeamNG.drive 文档
+            Installation: 安装
+            Helpful Snippets: 实用代码片段
+            Scripting Reference: 脚本参考
+            Mod (In-Game): 游戏内模组
+            Server: 服务器
+            Contributing: 参与贡献
+            Getting Started: 快速开始
+            Community: 社区
         - locale: en
           default: true
           name: English
@@ -353,6 +407,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
@@ -362,7 +418,8 @@ nav:
       - Error Codes: game/error-codes.md
       - Multiplayer Settings: game/multiplayer-settings.md
     - Running a BeamMP-Server:
-      - Server Installation: server/create-a-server.md
+      - Server Setup (Home): server/create-a-server.md
+      - Server Setup (VPS): server/setup-vps.md
       - Port Forwarding: server/port-forwarding.md
       - Server Maintenance: server/server-maintenance.md
       - Error Codes: server/error-codes.md
@@ -372,7 +429,7 @@ nav:
   - FAQ:
     - How to check for CGNAT?: FAQ/How-to-check-for-CGNAT.md
     - Where can I find my IP address?: FAQ/where-to-find-my-IP.md
-    - How to deactivate my mods?: FAQ/How-to-deactivate-mods.md
+    - How to remove mods?: FAQ/Clearing-mods.md
     - Manually updating the Launcher: FAQ/Update-launcher.md
     - Changing the Launcher port: FAQ/Change-launcher-port.md
     - Creating Exclusions (Defender): FAQ/Defender-exclusions.md
@@ -392,13 +449,16 @@ nav:
       - Introduction: beamng/dev/index.md
       - Programming:
         - UI Apps (HTML): beamng/dev/modding/ui-apps.md
-        - IMGUI Windows (Lua): beamng/dev/modding/imgui-windows.md
+        - ImGui Window Tutorial: beamng/dev/modding/imgui-window-tutorial.md
         - Lua Mods (Scripts): beamng/dev/modding/lua-mods.md
       - Content:
         - Maps: beamng/dev/content/maps.md
         - Props: beamng/dev/content/props.md
         - Vehicles: beamng/dev/content/vehicles.md
-    - Helpful Code Snippets: beamng/snippets.md
+    - Lua Code Snippets: beamng/lua-snippets.md
+    - CSS Code Snippets: beamng/css-snippets.md
+    - ImGui Code Snippets: beamng/imgui-snippets.md
+    - CEF Code Snippets: beamng/cef-snippets.md
   - Scripting Reference:
     - Mod (In-Game): scripting/mod-reference.md
     - Server: 

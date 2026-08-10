@@ -21,6 +21,7 @@ The config has one section by default, called `[General]`, which holds the follo
 | AllowGuests 		| true/false																										   | Determines wether guests are allowed to join the server or not.																															 |
 | LogChat	  		| true/false																										   | When enabled (true), chat messages are logged in the server.log file.																													     |
 | Debug       		| true /false                                                                                                          | When enabled (true), will show more messages in the log and provide more information. Enable this if you run into issues. Enabling this will drastically increase the size of the log file. |
+| IP				| A local class address of one of the NICs connected to the host. (Default: "0.0.0.0" or "::"				   		   | The server will try to bind to the supplied IP. Please do not mess with the IP field unless you know what you are doing. This value does not need to be changed in order for the server to work.																	 |
 | Private     		| true/false                                                                                                           | When enabled (true), your server will not be shown in the server list. Anyone with the correct IP and port can still connect.                                                               |
 | InformationPacket | true/false																										   | When enabled (true), the server is going to allow unauthenticated clients to get the same info as on the server listing but directly via the server.										 |
 | Name        		| Any "text"                                                                                                           | Shown as the name / title of your server in the server list. You can use special characters to format this with colors and styles.                                                          |
@@ -94,74 +95,87 @@ You can add multiple tags separated by comma `Tags = "Events,Offroad,lang:englis
 
 You can choose from the following list:
 
-   - Age/Content:
-       - `Mature/18+`
+=== "Age/Content"
 
-   - Gameplay Types:
-       - `Freeroam`
-       - `Roleplay`
-       - `Economy`
-       - `Traffic`
+    - `Mature/18+`
 
-   - Racing Categories:
-       - `Racing`
-       - `Racing:NASCAR`
-       - `Racing:Track`
-       - `Racing:Drag`
-       - `Racing:Rally`
-       - `Touge`
+=== "Gameplay Types"
 
-   - Off-Roading and Challenges:
-       - `Offroad`
-       - `Crawling`
-       - `Dakar`
-       - `Challenge`
+    - `Freeroam`
+    - `Roleplay`
+    - `Economy`
+    - `Traffic`
+    - `Challenge`
+    - `Drift`
 
-   - Destruction Events:
-       - `Derby`
-       - `Arena`
+=== "Racing Categories"
 
-   - Weather and Time Conditions:
-       - `Snow/Ice`
-       - `Rain`
-       - `Night`
-       - `Weather`
+    - `Racing`
+    - `Racing:NASCAR`
+    - `Racing:Track`
+    - `Racing:Drag`
+    - `Racing:Rally`
+    - `Touge`
 
-   - Gamemodes:
-       - `Gamemode`
-       - `Gamemode:Racing`
-       - `Gamemode:Rally`
-       - `Gamemode:Drag`
-       - `Gamemode:Derby`
-       - `Gamemode:Infection`
-       - `Gamemode:Cops-Robbers`
-       - `Gamemode:Delivery`
-       - `Gamemode:Sumo`
+=== "Off-Roading"
 
-   - Community and Events:
-       - `Scenarios`
-       - `Events`
-       - `Leaderboard`
+    - `Offroad`
+    - `Crawling`
+    - `Rally`
+    - `Dakar`
 
-   - Mods:
-       - `Modded`
-       - `Mod:BeamPaint`
-       - `Mod:BeamJoy`
-       - `Mod:CEI`
+=== "Destruction Events"
 
-   - Languages:
-       - `Lang:English`
-       - `Lang:Russian`
-       - `Lang:French`
-       - `Lang:Spanish`
-       - `Lang:Portuguese`
-       - `Lang:German`
-       - `Lang:Polish`
-       - `Lang:Arabic`
+    - `Derby`
+    - `Arena`
 
-   - Other:
-       - `Vanilla`
-       - `Moderated`
+=== "Weather and Time Conditions"
+
+    - `Snow/Ice`
+    - `Rain`
+    - `Night`
+    - `Weather`
+
+=== "Gamemodes"
+
+    - `Gamemode`
+    - `Gamemode:Racing`
+    - `Gamemode:Rally`
+    - `Gamemode:Drag`
+    - `Gamemode:Derby`
+    - `Gamemode:Infection`
+    - `Gamemode:Cops-Robbers`
+    - `Gamemode:Delivery`
+    - `Gamemode:Sumo`
+
+=== "Community and Events"
+
+    - `Scenarios`
+    - `Events`
+    - `Leaderboard`
+
+=== "Mods"
+
+    - `Modded`
+    - `Mod:BeamPaint`
+    - `Mod:BeamJoy`
+    - `Mod:CEI`
+
+=== "Languages"
+
+    - `Lang:English`
+    - `Lang:Russian`
+    - `Lang:French`
+    - `Lang:Spanish`
+    - `Lang:Portuguese`
+    - `Lang:German`
+    - `Lang:Polish`
+    - `Lang:Arabic`
+
+=== "Other"
+
+    - `Vanilla`
+    - `Moderated`
 
 
 Should a tag be missing from this list, you can submit a request for it to be added [here](https://forum.beammp.com/t/introducing-server-tags/1320081)
