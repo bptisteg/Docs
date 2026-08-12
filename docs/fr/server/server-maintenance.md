@@ -4,15 +4,15 @@ Guides et astuces sur la façon de configurer et de prendre soin d'un serveur Be
 
 ## Comment installer
 
-Pour les instructions d'installation, veuillez consulter [l'installation du serveur](create-a-server.md) .
+Pour les instructions d'installation, veuillez consulter [l'installation du serveur](create-a-server.md).
 
 ## Le fichier ServerConfig
 
-La configuration du serveur, qui est un fichier appelé `ServerConfig.toml` , utilise le [format TOML](https://toml.io/en/) .
+La configuration du serveur, qui est un fichier appelé `ServerConfig.toml` , utilise le [format TOML](https://toml.io/en/).
 
 *REMARQUE* : L' *ancien* fichier de configuration du serveur s'appelait `Server.cfg` , mais il n'est plus utilisé et le serveur vous avertira s'il est toujours présent. Veuillez également noter que les deux formats de configuration ne sont **pas** compatibles.
 
-La configuration comporte une section par défaut, appelée `[General]` , qui contient les valeurs suivantes :
+La configuration comporte une section par défaut, appelée `[General]`, qui contient les valeurs suivantes :
 
 Key | Type de valeur | Description
 --- | --- | ---
